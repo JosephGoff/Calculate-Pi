@@ -8,7 +8,7 @@ Write and submit a Python program that computes an approximate value of π by ca
 
 (see: https://github.com/HHS-IntroProgramming/Calculate-Pi/blob/master/README.md)
 
-This sum approaches the true value of π as n approaches ∞.
+This sum approaches the true value of π as n approaches ∞. 
 
 Your program must ask the user how many terms to use in the estimate of π, how many decimal places, 
 then print the estimate using that many decimal places. Exactly like this:
