@@ -22,7 +22,7 @@ Note: remember that the printed value of pi will be an estimate!
 
 """
 import math
-terms = int(input("How many terms would you like to use to estimate pi? "))
-place = int(input("How many decimals would you like the estimation to have? "))
+terms = int(input("I will estimate pi. How many terms should I use? "))
+place = int(input("How many decimal places should I use in the result? "))
 pi = (4*(sum([((-1)**k)/(2*k+1) for k in range(0,terms)])))
-print("Pi can be estimated to {0}".format(round(pi, place)))
+print("The approximate value of pi is {0}".format(round(pi, place)))
